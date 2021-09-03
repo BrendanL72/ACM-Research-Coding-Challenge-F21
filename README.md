@@ -30,3 +30,9 @@ Submissions will be evaluated holistically and based on a combination of effort,
 
 Regardless if you can or cannot answer the question, provide a short explanation of how you got your solution or how you think it can be solved in your README.md file. However, we highly recommend giving the challenge a try, you just might learn something new!
 
+## Sources used for development/code:
+"How to Get Started with Deep Learning for Natural Language Processing"
+https://machinelearningmastery.com/crash-course-deep-learning-natural-language-processing/
+
+"Bag of Words Model for Beginners"
+https://www.kaggle.com/vipulgandhi/bag-of-words-model-for-beginners
