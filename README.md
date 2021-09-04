@@ -36,3 +36,12 @@ https://machinelearningmastery.com/crash-course-deep-learning-natural-language-p
 
 "Bag of Words Model for Beginners"
 https://www.kaggle.com/vipulgandhi/bag-of-words-model-for-beginners
+
+Load Text
+https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/load_data/text.ipynb
+
+yelp polarity reviews
+   not chosen due to 
+
+[imdb reviews](https://www.tensorflow.org/datasets/catalog/imdb_reviews)
+   Chosen due to reviewer's greater vocabulary, which I feel gives the AI a better chance of analyzing these blocks of text
