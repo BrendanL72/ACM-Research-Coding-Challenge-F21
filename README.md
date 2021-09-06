@@ -32,16 +32,35 @@ Regardless if you can or cannot answer the question, provide a short explanation
 
 ## Sources used for development/code:
 "How to Get Started with Deep Learning for Natural Language Processing"
+
 https://machinelearningmastery.com/crash-course-deep-learning-natural-language-processing/
 
 "Bag of Words Model for Beginners"
+
 https://www.kaggle.com/vipulgandhi/bag-of-words-model-for-beginners
 
 Load Text
+
 https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/load_data/text.ipynb
 
-yelp polarity reviews
-   not chosen due to 
+   Used this to gain a better understanding of how tensorflow works.
 
-[imdb reviews](https://www.tensorflow.org/datasets/catalog/imdb_reviews)
+imdb reviews
+
+https://www.tensorflow.org/datasets/catalog/imdb_reviews
+
    Chosen due to reviewer's greater vocabulary, which I feel gives the AI a better chance of analyzing these blocks of text
+   Dataset split into training and test
+   Training data contains 12.5k positive and negative reviews, as well as 50k unsupervised data. The unsupervised data will not be used.
+
+Recurrent Neural Network Text Tutorial
+
+https://www.tensorflow.org/text/tutorials/text_classification_rnn
+   This tutorial happened to feature the dataset (imdb reviews) I wanted to use.
+   As such this is the primary basis for my code.
+
+Rotten Tomatoes Reviews
+
+https://nlp.stanford.edu/sentiment/code.html
+
+   This dataset uses a scale of 1-25, however it was made with CoreNLP in mind, which uses Java.
