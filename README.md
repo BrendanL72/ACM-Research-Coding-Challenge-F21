@@ -41,21 +41,24 @@ I didn't know anything about Natural Language Processing or Sentiment Analysis b
 There were two options available to me: create the rules of what constitutes positive and negative speech, which is time consuming at best and a black hole of time at worst,
 or use machine learning libraries to learn what is positive and negative speech. I chose the second approach as a learning opportunity.
 
-I chose Tensorflow because it had extensive amounts of tutorials and used Python. However Tensorflow only works on PCs with NVidia GPUs because they have CUDA architecture.
+I chose the Tensorflow machine learning library because it had extensive amounts of tutorials/documentation and used Python. However Tensorflow only works on PCs with NVidia GPUs because they have CUDA architecture.
 To compensate, I used Google Colab + Jupyter since it could run Tensorflow for free and could run step by step for easier learning.
 
 I started with a tutorial that I planned on adapting to fit my chosen dataset: IMDB_reviews. I chose this dataset because of the extended vocabulary of the input text given, so I figured that a movie review website would exhibit higher level vocabulary than the other review/social media based datasets. 
-Luckily I found a tutorial on the Tensorflow website that did exactly what I was trying to do whilst going through their documentation from the previous tutorial. 
-
-Most of the code is ripped from the tutorial as I knew virtually nothing about how to approach machine learning, matplotlib, and Jupyter notebooks. 
+Luckily I found a tutorial on the Tensorflow website that did exactly what I was trying to do whilst going through their documentation from the previous tutorial. Most of the code in this project comes from this tutorial, however I tried to explore, take notes, nd read documentation wherever I could.
 
 ## Approach
-The machine learning algorithm is structured into 5 major parts: 
-*Setup
-*Encoding the Text
-*Training/Validating the Model
-*Testing the Model
-*Predicting New Text
+The machine learning algorithm is structured into 5 major parts to predict the text: 
+*  Setup
+   *  Involves importing the necessary libraries and loading the data into a Tensorflow dataset object 
+*  Encoding the Text
+   *  Involves transforming the large quantities of text into numerical vectors that goes through several layers to create a model
+*  Training/Validating the Model
+   *  Takes the processed dataset and tries to use the model to predict sentiment. If it guesses wrong, then the model is adjusted.
+*  Testing the Model
+   *  Tests the quality of the model using a completely new dataset to avoid the model getting too used to the training set.
+*  Predicting New Text
+   *  Insert the desired text to be read and given a Sentiment Analysis rating based on what the model has learned
 
 ## Sources used for development/code:
 These sources were used in my research and/or development.
@@ -78,6 +81,8 @@ These sources were used in my research and/or development.
 [Recurrent Neural Network Text Tutorial](https://www.tensorflow.org/text/tutorials/text_classification_rnn)
    This tutorial happened to feature the dataset (imdb reviews) I wanted to use.
    As such this is the primary basis for my code.
+
+Honorable Mention:
 
 [Rotten Tomatoes Reviews](https://nlp.stanford.edu/sentiment/code.html)
    This dataset uses a scale of 1-25, however it was made with CoreNLP in mind, which uses Java.
