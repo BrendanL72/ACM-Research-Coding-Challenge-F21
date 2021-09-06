@@ -61,13 +61,7 @@ The machine learning algorithm is structured into 5 major parts to predict the t
    *  Insert the desired text to be read and given a Sentiment Analysis rating based on what the model has learned
 
 ## Sources used for development/code:
-These sources were used in my research and/or development.
-
-[Sentiment Analysis: A Definitive Guide](https://monkeylearn.com/sentiment-analysis/)
-
-[How to Get Started with Deep Learning for Natural Language Processing](https://machinelearningmastery.com/crash-course-deep-learning-natural-language-processing/)
-
-[Bag of Words Model for Beginners](https://www.kaggle.com/vipulgandhi/bag-of-words-model-for-beginners)
+These sources were used in my development.
 
 [Load Text](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/load_data/text.ipynb)
    Started off the project using this tutorial and used it to gain a better understanding of how tensorflow works.
