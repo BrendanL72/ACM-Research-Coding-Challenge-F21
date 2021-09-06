@@ -34,7 +34,7 @@ Regardless if you can or cannot answer the question, provide a short explanation
 Click on the link to the Google Colab to run the Jupyter Notebook. Google Colab lets you run the machine learning Tensorflow library on its GPUs. 
 You can run each step individually (as most of it is non-essential) by clicking the play button on the left or run all the steps by clicking Runtime > Run all.
 Keep in mind that the program takes quite a while to load the dataset as well as learn from it.
-It will ask you for an input text file after the model is done loading, download the input.txt file from the repo
+It will ask you for an input text file after the model is done loading, download the input.txt file from the GitHub repo.
 
 ## Development Story/Context
 I didn't know anything about Natural Language Processing or Sentiment Analysis before this project, so I looked up how to approach it. 
@@ -51,7 +51,11 @@ Most of the code is ripped from the tutorial as I knew virtually nothing about h
 
 ## Approach
 The machine learning algorithm is structured into 5 major parts: 
-Setup, Encoding the Text
+*Setup
+*Encoding the Text
+*Training/Validating the Model
+*Testing the Model
+*Predicting New Text
 
 ## Sources used for development/code:
 These sources were used in my research and/or development.
